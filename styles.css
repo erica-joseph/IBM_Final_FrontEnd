@@ -1,0 +1,229 @@
+/* Place your CSS styles in this file */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #eee;
+    font-family: "Nunito", sans-serif;
+}
+
+.nunito-regular {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: #d8cec0 solid .01vw;
+    color: rgb(157, 143, 123);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ede7de;
+}
+.logo{
+
+}
+.buttonbar{
+
+}
+.button{
+
+}
+.content{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.profile{
+    height: fit-content;
+    width: 60%;
+
+}
+.skills{
+
+}
+.projects{
+
+}
+.rec{
+display: grid
+;
+}
+.recform{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardRec {
+    display: inline-flex;
+    flex-direction: column;
+    width: 20vw;
+    height: fit-content;
+    font-size: 1vw;
+    background-color: white;
+    font-style: italic;
+    padding: 2vw;
+    margin: 1vw;
+    border-radius: .5vw;
+    box-shadow: .1vw .1vw .5vw .1vw #d8cec0 inset;
+}
+.cardSkill {
+    display: inline-flex;
+    width: 20vw;
+    height: fit-content;
+    font-size: 1vw;
+    background-color: white;
+    font-style: italic;
+    padding: 2vw;
+    margin: 1vw;
+    border-radius: .5vw;
+    box-shadow: .1vw .1vw .5vw .1vw #d8cec0 inset;
+}
+.logoSkill{
+    display: inline-block;
+    text-align: center;
+    padding: 1vw;
+    height: 3vw;
+    width: 20%;
+    background-color: transparent;
+    border-right: black solid .01vw;
+}
+.logoImage {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png');
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contentSkill{
+    display: inline-block;
+    padding: 1vw;
+    height: 3vw;
+    width: 75%;
+    background-color: transparent;
+    
+}
+.skill{
+    font-size: 1.5vw;
+    border-bottom: black solid .01vw;
+    padding-bottom: .5vw;
+}
+.time{
+    font-size: 1vw;
+    padding-top: .5vw;
+}
+.bin{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center
+}
+.nameInput{
+    width: 40vw;
+    height: fit-content;
+    font-size: 1vw;
+    background-color: white;
+    font-style: italic;
+    padding: .5vw;
+    margin: 1vw;
+    margin-bottom: 0;
+    border-radius: .5vw;
+    border: 0px;
+    box-shadow: .1vw .1vw .5vw .1vw #d8cec0 inset;
+}
+.recInput{
+    width: 40vw;
+    height: 10vw;
+    font-size: 1vw;
+    background-color: white;
+    font-style: italic;
+    padding: .5vw;
+    margin: 1vw;
+    border-radius: .5vw;
+    border: 0px;
+    box-shadow: .1vw .1vw .5vw .1vw #d8cec0 inset;
+    overflow-y: scroll;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.recButt{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: 1vw;
+}
+.data{
+    font-size: 1vw;
+    flex-direction: column;
+}
+.buttonbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbutton{
+    background-color: transparent;
+    border: 0px;
+    font-size: 1vw;
+    font-family: "Nunito", sans-serif;
+    color: rgb(157, 143, 123);
+}
+.navbutton:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.magis{
+    background-image: url('https://i.imgur.com/02XZPG6.png');
+    background-size: contain;
+    height: 20vw;
+    width: 20vw;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.profilecontainer{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 3vw;
+    font-weight: bold;
+}
+h3{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(235, 133, 181);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
